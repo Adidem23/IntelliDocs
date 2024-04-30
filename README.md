@@ -25,7 +25,7 @@
 ## About The Project : 
 
 ##  IntelliDocs : Document Querying Chatbot
-- IntelliDocs is a cutting-edge document querying chatbot designed to streamline the process of accessing and retrieving information from various documents. 
+- IntelliDocs is a cutting-edge document querying chatbot designed to streamline the process of accessing and retrieving information from various documents. Users can query various topics related to the given document and retrive the information 
 
 
 ## Key Features :
