@@ -30,7 +30,14 @@
 
 ## Key Features :
 
-### 
+### Document Uploading : 
+- This application takes user document and uploads it to the MongoDb Atlas Services , AWS S3 services .
+
+### Document Processing : 
+- The document is Processed and its text is extracted and vectors are stored in pincone databases. 
+
+### Query Processing : 
+- Users can query the uploaded documents in the databases and can ask questions related to it . 
 
 # Video :
 - Youtube : 
