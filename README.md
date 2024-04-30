@@ -1,6 +1,6 @@
 <div align="center">
  <img src="https://github.com/Adidem23/IntelliDocs/assets/124609794/d7299c75-e127-4142-9081-85cc2b2110ec" height="150px" width="150px" />
-  <h3 align="center"> Medcheck : Unlocking Safety in Every Pill</h3>
+  <h3 align="center"> IntelliDocs : Document Querying Chatbot</h3>
 </div>
 <details>
   <summary>Table of Contents</summary>
