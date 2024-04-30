@@ -50,7 +50,10 @@
  - [![My Skills](https://skillicons.dev/icons?i=mongodb&perline=3)](https://skillicons.dev) Mongodb Atlas
 
 # Prerequisites : 
-
+- Before Installation You Must have MongoDB Atlas Free Tier Service Available
+- You Must Have an Aws Account to get Proceeded and Create S3 bucket in it
+- Create Pincone database Account
+  
 * npm
   ```sh
   npm install npm@latest -g
@@ -60,6 +63,5 @@
   ```sh
   Download Nodejs Version ^ 18.0.0 LTS 
   ```
-
 # Installation : 
-- 
+
