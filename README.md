@@ -44,13 +44,10 @@
 
 # Built With : 
 
- - [![My Skills](https://skillicons.dev/icons?i=react&perline=3)](https://skillicons.dev) ReactJs
+ - [![My Skills](https://skillicons.dev/icons?i=next&perline=3)](https://skillicons.dev) NextjS
  - [![My Skills](https://skillicons.dev/icons?i=nodejs&perline=3)](https://skillicons.dev) NodeJs
  - [![My Skills](https://skillicons.dev/icons?i=express&perline=3)](https://skillicons.dev) ExpressJs
- - [![My Skills](https://skillicons.dev/icons?i=python&perline=3)](https://skillicons.dev) Python
  - [![My Skills](https://skillicons.dev/icons?i=mongodb&perline=3)](https://skillicons.dev) Mongodb Atlas
- - [![My Skills](https://skillicons.dev/icons?i=vite&perline=3)](https://skillicons.dev) ViteJS
- - Alongside with It is Built Using UI Libraries NextUI , Mantine.DEV.UI 
 
 # Prerequisites : 
 
