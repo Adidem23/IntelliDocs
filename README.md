@@ -24,7 +24,8 @@
 
 ## About The Project : 
 
-## : 
+##  IntelliDocs : Document Querying Chatbot
+
 
 
 ## Key Features :
