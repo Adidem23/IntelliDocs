@@ -25,25 +25,13 @@
 ## About The Project : 
 
 ##  IntelliDocs : Document Querying Chatbot
-
+- 
 
 
 ## Key Features :
 
-### OTP Based Varification :
-- Mecheck Provides OTP based Authentication for the users Verificition 
-
-### Drug to Drug Viablity Checking : 
-- Medcheck Provides Drug to Drug Viablity Checking Mechanism along with precautions and Reason for the medical Viability
-
-### Substitue Drug Sugesstion : 
-- It has one feature where it suggests alternative drug for the given drug
-
-### Integrated Meet Platform :
-- We have Integrated Our Own Google Meet like platform for Sceduline Meet with Patients 
-
 # Video :
-- Youtube : https://youtu.be/sKfElAdIthU
+- Youtube : 
 
 # Built With : 
 
