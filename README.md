@@ -24,8 +24,8 @@
 
 ## About The Project : 
 
-## Medcheck : Unlocking Safety in Every Pil
-Medcheck is a cutting-edge platform designed to provide users with comprehensive information about drug interactions and reactions. With the ever-growing complexity of modern medicine and the increasing number of medications available, it's crucial for both healthcare professionals and patients to have access to reliable information about potential interactions between drugs.
+## : 
+
 
 ## Key Features :
 
