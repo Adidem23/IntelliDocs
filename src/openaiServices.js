@@ -1,8 +1,4 @@
-import {Configuration, OpenAIApi} from "openai"
-
-const configuration = new Configuration({
-	apiKey: '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',
-});
+const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 const genAI = new GoogleGenerativeAI("AIzaSyDfazWK5xqM82qJqxGTfqrWMac6PE8Cz6o");
 
