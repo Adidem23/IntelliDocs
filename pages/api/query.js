@@ -1,5 +1,5 @@
 import pinecone from "@/src/pinecone";
-import {getCompletion, getEmbeddings} from "@/src/openaiServices";
+import {generateEmbeddingsGemini,genearteAnswerGemini} from "@/src/openaiServices";
 import {connectDB} from "@/src/db";
 import MyFileModel from "@/src/models/MyFile";
 
@@ -21,7 +21,7 @@ export default async function handler(req, res) {
 	}
 
 	// 4. get embeddings for the query
-	const questionEmb = await getEmbeddings(query)
+	const questionEmb = await generateEmbeddingsGemini(query)
 	console.log("line 25")
 
 	// 5. initialize pinecone
@@ -64,7 +64,7 @@ export default async function handler(req, res) {
 	console.log('--prompt--', prompt)
 
 	// 10. get the completion from openai
-	let response = await getCompletion(prompt)
+	let response = await genearteAnswerGemini(prompt)
 
 	console.log('--completion--', response)
 

@@ -17,7 +17,7 @@ const createIndex = async (indexName) => {
 	if (!indexes.indexes.includes(indexName)) {
 		await pinecone.createIndex({
 			name: indexName,
-			dimension: 1536,
+			dimension: 768,
 			metric: 'cosine',
 			spec: {
 				serverless: {

@@ -1,8 +1,8 @@
 import * as PDFJS from 'pdfjs-dist/legacy/build/pdf';
 import MyFileModel from "@/src/models/MyFile";
 import { connectDB, disconnectDB } from "@/src/db";
-import { getEmbeddings } from "@/src/openaiServices";
-import pinecone, { initialize } from "@/src/pinecone";
+import { generateEmbeddingsGemini } from "@/src/openaiServices";
+import pinecone from "@/src/pinecone";
 
 export default async function handler(req, res) {
 
@@ -54,7 +54,7 @@ export default async function handler(req, res) {
 				// console.log("Text is: " + text);
 
 				// 5. Get embeddings for each page
-				const embedding = await getEmbeddings(text)
+				const embedding = await generateEmbeddingsGemini(text)
 				console.log("Embeddings are : " + embedding);
 
 				// 6. push to vector array

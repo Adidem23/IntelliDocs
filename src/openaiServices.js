@@ -1,41 +1,20 @@
-import {Configuration, OpenAIApi} from "openai"
+const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-const configuration = new Configuration({
-	apiKey: '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',
-});
+const genAI = new GoogleGenerativeAI("AIzaSyDfazWK5xqM82qJqxGTfqrWMac6PE8Cz6o");
 
-const openai = new OpenAIApi(configuration);
-
-const OPEN_AI_EMBEDDING_MODEL = "text-embedding-ada-002"
-const OPEN_AI_COMPLETION_MODEL = "gpt-3.5-turbo-instruct"
-
-
-export const getEmbeddings = async (text) => {
-	
-	const response = await openai.createEmbedding({
-		model: OPEN_AI_EMBEDDING_MODEL,
-		input: text,
-	});
-	
-	return response.data.data[0].embedding
+export const generateEmbeddingsGemini = async (text) => {
+	const model = genAI.getGenerativeModel({ model: "embedding-001" });
+	const result = await model.embedContent(text);
+	const embedding = result.embedding;
+	return embedding.values;
 }
 
-export const getCompletion = async (prompt) => {
+export const genearteAnswerGemini = async (prompt) => {
 	try{
-		const completion = await openai.createCompletion({
-			model: OPEN_AI_COMPLETION_MODEL,
-			prompt: prompt,
-			max_tokens: 500,
-			temperature: 0
-		});
-
-	console.log(completion.data.choices)
-
-	return completion.data.choices[0].text
-
+		const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+		const result = await model.generateContent(prompt);
+		return result.response.text();
 	}catch(e){
-		console.log("Error while completion : "+e);
+		console.log("Error while completion : " + e);
 	}
-	
-
 }
